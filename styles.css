@@ -1,0 +1,117 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: hsl(0, 57%, 49%);
+}
+
+/* Header */
+header {
+    background-color: #1a1414;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background: rgb(228, 8, 8);
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Container and Section */
+.container {
+    padding: 20px;
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+/* Social Icons */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.social-icons a {
+    text-decoration: none;
+    font-size: 20px;
+    color: hsl(0, 57%, 5%);
+}
+
+.social-icons a:hover {
+    color: #0078FF;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: rgb(167, 169, 226);
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Contact Form */
+.contact-form {
+    max-width: 600px;
+    margin: auto;
+}
+
+.contact-form input, 
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: hsl(212, 77%, 60%);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: hsl(210, 78%, 70%);
+}
+
+#formResponse {
+    text-align: center;
+    margin-top: 10px;
+    color: #047604;
+    font-weight: bold;
+}
+
+.profile-img {
+     width: 20px;
+}
+.banner{
+    background-image: url("pic.jpg");
+}
+p,h2{
+    color: black;
+}
